@@ -1,0 +1,170 @@
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f7f7f7;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.3;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #4f8cff, #ff8a3d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.hero p b {
+  font-weight: 600;
+  color: #222;
+}
+.hero {
+  text-align: center;
+  padding: 60x 20px 40px; /* bottom space kami kelay */
+}
+
+.hero p {
+  margin: 10px 0 20px; /* button chya varcha gap kami */
+}
+
+.cta-btn {
+  margin-top: 25px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(90deg, #4f8cff, #ff8a3d);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* FEATURES SECTION */
+.features {
+  text-align: center;
+  padding: 80px 20px;
+  background: #f7f7f7;
+}
+
+.features h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #222;
+  line-height: 1.4;
+}
+
+/* Grafterr grey */
+.features h2 span:first-child {
+  color: #888;
+}
+
+/* grow your business BLACK */
+.features h2 span:last-child {
+  color: #000;
+  background: none;
+  -webkit-text-fill-color: #000;
+}
+
+.features p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line under text */
+.line {
+  width: 120px;
+  height: 3px;
+  background: #ddd;
+  margin: 20px auto;
+  position: relative;
+}
+
+.line::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #f1f1f1; /* grey bg */
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  height: 320px; /* short box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* IMAGE BOX (important for crop) */
+.img-box {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* IMAGE CROP STYLE */
+.img-box img {
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ARROWS BOTTOM */
+.arrows {
+  margin-top: 30px;
+}
+
+.arrows button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  background: #eee;
+  cursor: pointer;
+}
+/* DEFAULT (1st & 3rd images crop) */
+.img-box img {
+  width: 120%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ❌ REMOVE crop ONLY for middle image */
+.card:nth-child(2) .img-box img {
+  width: 80%;        /* zoom out */
+  object-fit: contain; /* no crop */
+}
+.hero button {
+  margin-top: 15px;
+  margin-bottom: 0px !important; /* ha main fix ahe */
+}

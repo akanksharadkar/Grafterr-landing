@@ -1,0 +1,27 @@
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(to right, #4f8ef7, #ff8c42);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Button */
+.btn {
+  margin-top: 20px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #4f8ef7, #ff8c42);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Divider */
+.divider {
+  width: 120px;
+  height: 3px;
+  background: #ccc;
+  margin: 20px auto;
+  border-radius: 2px;
+}
